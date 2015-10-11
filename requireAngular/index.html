@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body ng-app="demoRequire">
+        <header>
+            Angular - Lazy Load con Require
+        </header>
+
+        <ul>
+            <li><a href="#main">main</a></li>
+            <li><a href="#secondary">secondary</a></li>
+        </ul>
+        <div class="container">
+            <!-- Aquí se incluye el contenido cargado con require --> 
+            <div ui-view></div>      
+        </div>
+      
+        <footer>
+        </footer>
+
+        <!-- Definimos en el data-main un solo punto de entrada -->        
+        <script src="bower_components/requirejs/require.js" data-main="scripts/main.js"></script>
+      
+    </body>
+</html>

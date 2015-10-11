@@ -1,0 +1,2 @@
+Modificado para corregir un error en this.futureState = function (futureState) {
+Afecta a las cargas de estados desde un JSON externo con addResolve: null en realParent.navigable.url.

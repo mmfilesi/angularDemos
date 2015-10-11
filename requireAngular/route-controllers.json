@@ -1,0 +1,14 @@
+[
+  {
+    "name": "main",
+    "url": "/main",
+    "templateUrl": "views/main.html",
+    "controller": "controllers/main"
+  },
+  {
+    "name": "secondary",
+    "url": "/secondary",
+    "templateUrl": "views/secondary.html",
+    "controller": "controllers/secondary"
+  }    
+]
